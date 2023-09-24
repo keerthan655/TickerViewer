@@ -6,7 +6,7 @@ import plotly.graph_objs as go
 import requests
 from datetime import datetime
 app = dash.Dash(__name__)
-
+# Create Web GUI
 app.layout = html.Div([
     html.H1("Stock Candlestick Chart"),
     dcc.Dropdown(
