@@ -33,8 +33,9 @@ Before running this application, ensure you have the following prerequisites ins
 The server will run at http://127.0.0.1:5000/
 
 
-2. Start Dash client
-    ```bash
+2. Open another terminal and navaigate to the project directory again then start the Dash client
+   ```bash
+   cd path/to/TickerViewer
    python client.py
    
 The Dash app will run at http://127.0.0.1:8050/
